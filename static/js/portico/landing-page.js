@@ -42,7 +42,7 @@ var hello_events = function () {
 var apps_events = function () {
     var info = {
         windows: {
-            image: "/static/images/landing-page/microsoft.png",
+            image: "/static/images/landing-page/windows.png",
             alt: "Windows",
             description: "Zulip for Windows is even better than Zulip on the web, with a cleaner look, tray integration, native notifications, and support for multiple Zulip accounts.",
             link: ELECTRON_APP_URL_WINDOWS,
