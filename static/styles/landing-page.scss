@@ -1597,6 +1597,8 @@ nav ul li.active::after {
     text-indent: -999px;
     cursor: pointer;
     background-color: #9fa5b3;
+    transition: all 0.1s ease;
+
 }
 
 .carousel-indicators li::before {
@@ -1621,6 +1623,7 @@ nav ul li.active::after {
 
 .carousel-indicators li.active {
     background-color: #414e68;
+    transition-duration: 0s;
 }
 
 .portico-landing.hello .testimonials {
