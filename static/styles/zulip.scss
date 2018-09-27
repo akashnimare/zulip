@@ -570,6 +570,10 @@ a:hover code {
     color: inherit;
 }
 
+.message_table > .recipient_row ~ .recipient_row .message_header {
+    display: none;
+}
+
 li.actual-dropdown-menu i {
     /* In gear menu, make icons the same width so labels line up. */
     display: inline-block;
@@ -736,8 +740,8 @@ td.pointer {
 }
 
 .message_list .recipient_row {
-    border-bottom: 1px solid hsl(0, 0%, 88%);
-    margin-bottom: 10px;
+    // border-bottom: 1px solid hsl(0, 0%, 88%);
+    // margin-bottom: 10px;
 }
 
 .floating_recipient .recipient_row {
